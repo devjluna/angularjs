@@ -1,0 +1,13 @@
+<h2 *ngIf="true"> ngIf simple </h2>
+<h2 *ngIf="show"> ngIf con variable </h2>
+
+<h2 *ngIf="a < b"> ngIf con datos </h2>
+
+<h2 *ngIf=" name == 'Jimmy' "> ngIf con validacion {{ name }} </h2>
+
+<h2 *ngIf="hasAccess()"> ngIf con function {{ hasAccess() }} </h2>
+
+tiene accesos? {{ hasAccess() }}
+
+<h2>enable?</h2>
+<input type="text" value="hola" [disabled]="false">
