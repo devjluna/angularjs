@@ -1,0 +1,18 @@
+<div class="page-header">
+  <div class="container">
+    <h1>Rutas</h1>
+    <div class="navLinks">
+      <a [routerLink]="['/home']">Home</a>
+      <a [routerLink]="['/about']">Acerca de</a>
+      <a [routerLink]="['/contact']">Contacto</a> |
+      <a [routerLink]="['/login']">login</a>
+      <a [routerLink]="['/protected']">PROTECTED</a> |
+      <a [routerLink]="['/products']">PRODUCTOS</a>
+    </div>
+  </div>
+  <div id="content">
+    <div class="container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
